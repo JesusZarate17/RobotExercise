@@ -1,0 +1,21 @@
+*** Variables ***
+${BROWSER}                          chrome
+${ADD_REMOVE_ELEMENT_URL}           https://the-internet.herokuapp.com/add_remove_elements
+${BROKEN_IMAGES_URL}                https://the-internet.herokuapp.com/broken_images
+${BASIC_AUTH_URL}                   https://the-internet.herokuapp.com/basic_auth
+${CHECKBOXES_URL}                   https://the-internet.herokuapp.com/checkboxes
+${CONTEXT_MENU_URL}                 https://the-internet.herokuapp.com/context_menu
+${DISAPPEARING_ELEMENTS_URL}        https://the-internet.herokuapp.com/disappearing_elements
+${DRAG_AND_DROP_URL}                https://the-internet.herokuapp.com/drag_and_drop
+${DYNAMIC_CONTENT_URL}              https://the-internet.herokuapp.com/dynamic_content
+${DYNAMIC_CONTROLS_URL}             https://the-internet.herokuapp.com/dynamic_controls
+${EXIT_INTENT_URL}                  https://the-internet.herokuapp.com/exit_intent
+${DOWNLOAD_URL}                     https://the-internet.herokuapp.com/download
+${UPLOAD_URL}                       https://the-internet.herokuapp.com/upload
+${FLOATING_MENU_URL}                https://the-internet.herokuapp.com/floating_menu
+${LOGIN_URL}                        https://the-internet.herokuapp.com/login
+${HORIZONTAL_SLIDER_URL}            https://the-internet.herokuapp.com/horizontal_slider
+${JQUERY_MENU_URL}                  https://the-internet.herokuapp.com/jqueryui/menu
+${JS_ALERTS_URL}                    https://the-internet.herokuapp.com/javascript_alerts
+${KEY_PRESSES_URL}                  https://the-internet.herokuapp.com/key_presses
+${MULTIPLE_WINDOWS_URL}             https://the-internet.herokuapp.com/windows
