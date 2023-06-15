@@ -12,8 +12,9 @@ Initialize Selenium
 
 Begin Web Test
     Initialize Selenium
-    open browser                about:blank          ${BROWSER}
+    open browser                about:blank          ${BROWSER}     alias=Chrome
     maximize browser window
 
 End Web Test
     close all browsers
+

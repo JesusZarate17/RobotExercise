@@ -1,6 +1,6 @@
 *** Variables ***
 ${BROWSER}                          chrome
-${ADD_REMOVE_ELEMENT_URL}           https://the-internet.herokuapp.com/add_remove_elements
+${ADD_REMOVE_ELEMENT_URL}           https://the-internet.herokuapp.com/add_remove_elements/
 ${BROKEN_IMAGES_URL}                https://the-internet.herokuapp.com/broken_images
 ${BASIC_AUTH_URL}                   https://the-internet.herokuapp.com/basic_auth
 ${CHECKBOXES_URL}                   https://the-internet.herokuapp.com/checkboxes

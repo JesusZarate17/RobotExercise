@@ -25,7 +25,7 @@ Get Download Links
     @{elements}     Get WebElements     ${IMAGES_LOCATOR}
     @{links}        create list
     FOR    ${element}   IN      @{elements}
-        ${link}     get element attribute    ${element}   href
+        ${link}     get element attribute    ${element}   innerHTML
         append to list    ${links}      ${link}
     END
     [Return]    ${links}
@@ -33,9 +33,7 @@ Get Download Links
 Download File
     [Arguments]    ${download_link}
     ${file_name}    Get File Name    ${download_link}
-    Click Link    css=a[href*='${filename}']
-    Sleep    5s
-
+    Click Link    css=a[href='download/${filename}']
 
 Get File Name
     [Arguments]    ${file_url}
@@ -47,7 +45,8 @@ Validate File Downloaded
     [Arguments]    ${file_name}
     ${download_dir}     Get Local Download Directory
     ${file_path}    Set Variable    ${download_dir}\\${file_name}
-    File Should Exist    ${file_path}
+    wait until created      ${file_path}
+    File Should Exist       ${file_path}
 
 Get Local Download Directory
     ${user_home}        get environment variable    UserProfile
